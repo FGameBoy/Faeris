@@ -93,16 +93,16 @@ public  class Fs_Activity extends Activity
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if (keyCode == KeyEvent.KEYCODE_BACK) {
 			AlertDialog.Builder builder = new Builder(Fs_Activity.this);
-			builder.setMessage("È·ÈÏÍË³öÓÎÏ·Âğ?");
-			builder.setTitle("ÌáÊ¾");
-			builder.setPositiveButton("È·ÈÏ", new OnClickListener() {
+			builder.setMessage("æ˜¯å¦é€€å‡ºæ¸¸æˆ?");
+			builder.setTitle("æç¤º");
+			builder.setPositiveButton("ç¡®å®š", new OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						dialog.dismiss();
 						Fs_Activity.this.finish();
 					}
 			});
 
-			builder.setNegativeButton("È¡Ïû", new OnClickListener() {
+			builder.setNegativeButton("å–æ¶ˆ", new OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 							dialog.dismiss();
 					}
